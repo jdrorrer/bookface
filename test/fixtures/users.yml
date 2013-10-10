@@ -5,3 +5,9 @@ jake:
   profile_name: "jakerorrer"
   # password: "password"
   # password_confirmation: "password"
+
+jacob:
+  first_name: "Jacob"
+  last_name: "Delicious"
+  email: "lilj985@aol.com"
+  profile_name: "jacobdelicious"
