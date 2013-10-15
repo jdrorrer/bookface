@@ -7,6 +7,11 @@ gem 'rails', '4.0.0'
 gem 'devise'
 gem 'simple_form'
 
+group :test do
+	gem 'shoulda'
+	gem 'shoulda-matchers'
+end
+
 group :development, :test do
 	gem 'sqlite3'
 end
