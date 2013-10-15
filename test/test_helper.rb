@@ -2,6 +2,11 @@ ENV["RAILS_ENV"] ||= "test"
 require File.expand_path('../../config/environment', __FILE__)
 require 'rails/test_help'
 
+include Shoulda::Matchers::ActiveRecord
+extend Shoulda::Matchers::ActiveRecord
+include Shoulda::Matchers::ActiveModel
+extend Shoulda::Matchers::ActiveModel
+
 class ActiveSupport::TestCase
   ActiveRecord::Migration.check_pending!
 
