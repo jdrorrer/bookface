@@ -3,6 +3,7 @@ jake:
   last_name: "Rorrer"
   email: "jdrorrer@gmail.com"
   profile_name: "jakerorrer"
+  encrypted_password: "$2a$10$Fh/Hm8RxDsuPTeBUr6864.GARlcmt7zF2WspaXGr3BIv2C27N.osq"
   # password: "password"
   # password_confirmation: "password"
 

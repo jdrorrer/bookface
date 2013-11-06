@@ -8,7 +8,8 @@
 <div class="status">
   <div class="row">
     <div class="span1">
-      <%= image_tag status.user.gravatar_url, :style => "-webkit-border-radius: 500px;
+      <%= link_to image_tag(status.user.gravatar_url), profile_path(status.user),
+          :style => "-webkit-border-radius: 500px;
           -moz-border-radius: 500px;
           border-radius: 500px;" %>
     </div>
